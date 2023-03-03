@@ -42,6 +42,11 @@ Copy code
 from myapp.models import Subscriber
 s = Subscriber(name='John Doe')
 s.save()
+
+from myapp.models import Subscriber
+s = Subscriber(name='John Doe')
+s.save()
+
 This will create a new Subscriber object with the name "John Doe" and save it to the database.
 
 That's it! You now have a basic Django app with a model for storing subscriber names in a SQLite database. From here, you can customize the app and add additional functionality as needed.
